@@ -1,9 +1,9 @@
 import os
 
 # Configuration
-REPO_PATH = "/path/to/your/repo"  # Local path of the cloned repository
-LAST_COMMIT_FILE = "/path/to/last_commit.txt"  # File to store the last checked commit hash
-SCRIPT_TO_RUN = "/path/to/run_script.sh"  # Script to execute on new commit
+REPO_PATH = r'C:\terraform\projects\project10\git_sandbox'  # Local path of the cloned repository
+LAST_COMMIT_FILE = "last_commit.txt"  # File to store the last checked commit hash
+SCRIPT_TO_RUN = "run_script.sh"  # Script to execute on new commit
 
 def get_latest_commit():
     """Fetches the latest commit hash using git log."""
